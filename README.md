@@ -1,4 +1,6 @@
 # 🌐 Network Project – Company A & Company B
+## 🖥️ Topology
+<img width="958" height="561" alt="image" src="https://github.com/user-attachments/assets/0f4863a4-47c5-481e-b480-5cfa25a209df" />
 
 ## 🎯 Objectives
 Xây dựng hệ thống mạng cho *Công ty A* và *Công ty B*, đảm bảo:
@@ -26,9 +28,9 @@ Xây dựng hệ thống mạng cho *Công ty A* và *Công ty B*, đảm bảo:
 
 ## 🏢 Công ty B
 - *Switch SW1, SW2*: VLAN 10–40.  
-- *MLS1, MLS2 (Switch L3)*:
+- *SW_CORE1, SW_CORE2 (Switch L3)*:
   - *Inter-VLAN routing* (ip routing).
-  - DHCP Server tại *MLS1*, *MLS2* dùng relay.
+  - DHCP Server tại *SW_CORE1*, *SW_CORE2* dùng relay.
   - Kết nối bằng *EtherChannel (Port-Channel 3)*, IP riêng trên link (172.17.12.0/24).
 - *Router R1 (Edge)*:
   - Kết nối ISP qua 111.1.2.0/30.
