@@ -61,4 +61,3 @@ Xây dựng hệ thống mạng cho *Công ty A* và *Công ty B*, đảm bảo:
 ---
 
 📌 README này mô tả kiến trúc, công nghệ và dịch vụ trong dự án mạng.  
-8.8.8.8
